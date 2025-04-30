@@ -6,11 +6,11 @@ $login = getUserLogin();
 ?>
 <html>
 <head>
-    <title>Главная страница</title>
+    <title>FPI Bank</title>
 </head>
 <body>
 <?php if ($login === null): ?>
-<a href="/www/login.php">Авторизуйтесь</a>
+<a href="/www/login.php">Войдите в аккаунт.</a>
 <?php else: ?>
 Добро пожаловать, <?= $login ?>
 <br>
